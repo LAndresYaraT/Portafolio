@@ -22,13 +22,6 @@ const { description, title } = Astro.props
   </head>
 
   <body>
-    <div class="relative h-full w-full bg-slate-950">
-      <!-- Primer círculo -->
-      <div class="absolute bottom-0 left-[-10%] md:left-[-20%] top-[-10%] h-[300px] w-[300px] md:h-[800px] md:w-[800px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.5),rgba(255,255,255,0))]"></div>
-      
-      <!-- Segundo círculo -->
-      <div class="absolute bottom-0 right-[-10%] md:right-[-20%] top-[-10%] h-[300px] w-[300px] md:h-[800px] md:w-[800px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.5),rgba(255,255,255,0))]"></div>
-    </div>
     <Header relative/>
     <slot />
     <Footer />
@@ -38,10 +31,6 @@ const { description, title } = Astro.props
 </html>
 
 <style is:global>
-  :root {
-    color-scheme: light dark;
-  }
-
   html, body {
     overflow-x: hidden;
   }
@@ -52,10 +41,10 @@ const { description, title } = Astro.props
   }
 
   body {
-    background: #0c0000;
+    background: #B3C8CF;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100%;
   }
 
   @media (prefers-reduced-motion: reduce) {
@@ -89,5 +78,4 @@ const { description, title } = Astro.props
     border-right-color: transparent;
   }
 }
-
 </style>

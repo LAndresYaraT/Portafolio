@@ -1,0 +1,88 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Badge from '../components/Badge.astro';
+import SectionContainer from "../components/SectionContainer.astro";
+---
+
+<Layout title="Portafolio LyT" description="Estudiante de ingeniería de sistemas">
+	<div class="absolute top-7 left-5 md:left-30 lg:left-40 flex items-center space-x-4">
+		<img 
+		  src="Hoxy.png"
+		  class="rounded-full w-16 h-16"
+		  alt="imagen perfil"
+		/>
+		<span class="flex flex-row gap-x-10 opacity-85 text-sm md:text-base font-bold">
+		  Liborio Andres Yara Tocarema
+		</span> 
+	  </div>
+	
+  <main class="px-4">
+	  <section class="w-full mx-auto lg:w-[740px] py-6 relative flex flex-col items-center lg:items-start">
+		<h1 class="typewriter text-black-300 text-3xl md:text-4xl lg:text-5xl font-bold flex flex-col items-center gap-x-4 pb-6 lg:pb-4 text-center max-w-full mx-auto">
+		  Segundo Unidad
+            <div>
+                <span class="typewriter text-black-300 text-xl mt-2 text-center max-w-full lg:max-w-[740px] block mx-auto font-bold">
+                    <a href="/Up1" class="hover:underline"> Segundo Corte</a>
+                </span>
+            </div>
+            <div1 class="flex justify-center items-center mt-4">
+                <Badge className="bg-green-700 text-green-100 dark:bg-green-700 dark:text-green-100">En curso</Badge>
+            </div1>
+		</h1>
+        <h2 class="typewriter text-black-300 text-xl mt-8 text-center max-w-full lg:max-w-[740px] block mx-auto font-bold break-words">
+            Retroalimentación sobre los habaitos de un Pensador Sistémico
+        </h2>
+
+        <h3 class="typewriter text-black-500 text-xl mt-12 text-center block mx-auto break-words max-w-full lg:max-w-[740px] font-bold">
+            Habitos de un pensador:
+        </h3>
+        
+        <div class="text-container text-center mx-auto">
+            <p class="text-black-100/90 text-xl mt-2 max-w-full lg:max-w-[740px] mx-auto font-bold">
+                Entender el panorama completo, reconocer la estructura como fuente de comportamiento, identificar relaciones circulares de causa-efecto, cambiar de perspectivas, probar suposiciones, y considerar tanto consecuencias a corto como largo plazo. Estos hábitos fomentan un enfoque integral y adaptable frente a sistemas complejos.
+            </p>
+        
+            <h4 class="typewriter text-black-400 text-xl mt-16 text-center block mx-auto font-bold break-words max-w-full lg:max-w-[740px]">
+                Conclusión Personal
+            </h4>
+            
+
+            <p class="text-black-100/90 text-xl mt-4 max-w-full lg:max-w-[740px] mx-auto font-bold">
+                Adoptar estos hábitos invita a una mirada más profunda y consciente sobre los problemas, alejándonos de soluciones rápidas o culpabilización. Nos ayuda a identificar los puntos clave donde pequeñas intervenciones pueden generar grandes cambios, promoviendo una acción más estratégica y efectiva en cualquier sistema.
+            </p>
+            <img 
+                src="HabitosPensador.jpg" 
+                alt="Imagen que acompaña el ejemplo" 
+                class="mx-auto mt-8 w-1/2 h-auto rounded-md"
+            />
+        </div>
+        
+        <h4 class="typewriter text-black-400 text-xl mt-16 text-center block mx-auto font-bold break-words max-w-full lg:max-w-[740px]">
+            Los arquetipos sistémicos y el pensamiento sistémico:
+        </h4>
+        
+        <div class="text-container text-center mx-auto">
+            <p class="text-black-100/90 text-xl mt-4 max-w-full lg:max-w-[740px] mx-auto">
+
+            </p>
+            <p class="text-black-100/90 text-xl mt-4 max-w-full lg:max-w-[740px] mx-auto font-bold">
+                Estos están enfocados en comprender cómo las estructuras de los sistemas generan comportamientos repetitivos. Los arquetipos ayudan a identificar patrones que se repiten y permiten encontrar puntos de apalancamiento para realizar cambios efectivos. Ambos enfoques se centran en analizar la estructura en lugar de culpar a individuos, reconociendo las relaciones de causa y efecto dentro del sistema. Además, se promueve cambiar de perspectiva y probar suposiciones para mejorar la eficiencia del sistema.
+            </p>
+
+            <h5 class="typewriter text-black-400 text-xl mt-16 text-center block mx-auto font-bold break-words max-w-full lg:max-w-[740px]">
+                Conclusión Personal
+            </h5>
+            
+
+            <p class="text-black-100/90 text-xl mt-4 max-w-full lg:max-w-[740px] mx-auto font-bold">
+                Comprender los sistemas desde una perspectiva holística nos permite identificar los patrones y estructuras subyacentes que influyen en su comportamiento. Al enfocarnos en la estructura en lugar de buscar culpables, podemos reconocer los puntos donde pequeños cambios pueden generar grandes mejoras. Este enfoque no solo nos ayuda a resolver problemas actuales, sino que también nos prepara para anticipar y evitar errores futuros. La clave está en aprender a ver más allá de lo evidente, cuestionando nuestras suposiciones y observando el sistema en su totalidad.
+            </p>
+            <img 
+                src="sistémicosypensamiento.jpg" 
+                alt="Imagen que acompaña el ejemplo" 
+                class="mx-auto mt-8 w-1/2 h-auto rounded-md"
+            />  
+        </div>
+	  </section>
+	</main>
+  </Layout>
